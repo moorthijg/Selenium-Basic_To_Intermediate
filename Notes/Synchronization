@@ -1,0 +1,14 @@
+what is synchronization in selenium?
+
+The Automation test script speed is very high compared to web application speed
+
+To make proper Automation script the speed of web application and automation
+test script should perfectly match this process is called Synchronization.
+
+If Synchronization is not proper than we will get "No Such Element Exception
+
+The coordination process between the components is termed Synchronisation.
+
+The co-ordination and speed of  the test script and the web application is matches is called synchronization.
+
+To get the perfect synchronization we should  use implict waits  or Thread.sleep .

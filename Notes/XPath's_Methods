@@ -1,0 +1,48 @@
+what is xpath ?
+
+xpath means it's a type of locator which used to find webelement present in the webpage
+
+There are two type of x-paths
+i.absolute xpath
+ii.relative xpath
+
+absolute xpath --> it begins from the root or parent node and they start with single slash(/)
+and they only can traverse from head to end and they can't traverse from bottom to up.
+
+Relative xpath --> it begins from exact location of the webelement and starts with double slash
+(//) and it doesn't need to start with parent node.
+
+example => //*[@id="name"]
+
+definition of above xpath
+
+//--> starts from relative position
+*--->used to selecting all the nodes from the webpage
+
+Dynamic webelement finding method
+
+1.contains method
+//*[contains(@id,sb]--> traverse all the node contains id and select the specific id which has the value 
+of sb.
+
+2.text
+//*[text()="google search"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

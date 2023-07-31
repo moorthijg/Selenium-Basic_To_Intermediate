@@ -1,0 +1,37 @@
+                                WebDriver
+
+WebDriver is a important component of the selenium which is used to interact directly with browsers
+and test scripts.
+
+Architecture of the WebDriver -->
+
+SelectContext--> WebDriver --> RemoteWebDriver --> ChromeDriver, firefoxdriver ,EdgeDriver, HtmlUnitDriver
+
+here,
+SelectContext --> super interface of WebDriver
+WebDriver --> child Interface of selectContext
+RemoteWebDriver --> class which implements WebDriver interface
+ChromeDriver, firefoxdriver ,EdgeDriver, HtmlUnitDriver --> These are the sub-classes of RemoteWebDriver
+which implements WebDriver interface.
+
+some questions?
+
+why we can't write below code?
+WebDriver driver = new WebDriver();
+we can't create object for an interface which means it doesn't have any values inside it and it
+returns only null values.
+but ,
+ChromeDriver driver = new ChromeDriver(): can able to create but we didn't prefer this too
+even if this is correct why?
+
+while testing the application we need to run the scripts on almost all the browsers so we need to
+write scripts again again for another browsers that's why we didn't prefer this method even though it's
+right.
+
+WebDriver driver = new Chromedriver(); explain this
+
+we create object (driver) for a class Chromedriver by taking WebDDriver as reference of an interface,
+by using this we can implement all methods of interface (webdriver) in chromeDriver() class.
+
+WebDriver --> contains only methods which doesn't have definitions
+but RemoteDriver --> implements those methods with definitions.

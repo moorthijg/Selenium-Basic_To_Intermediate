@@ -1,0 +1,17 @@
+What are locators?
+Locators means attributes  which are used to find the particular webelement present in
+the webpage
+
+There are 8 types of locators used to find the webelement present in the webpage.those are,
+1.id
+2.name
+3.cssSelector
+4.linkText
+5.partial linktext
+6.classname
+7.tagname
+8.Xpath
+
+In those 8 locators the id is faster and the xpath is slower as compared to  other locators and
+most efficient locator is cssSelector.
+

@@ -1,0 +1,19 @@
+Exception  as the word indicates, is a special or uncommon case.
+
+The piece of code which might throw an exception is added inside the Try block.
+
+#2) The Catch statement catches the exception and takes it as a parameter.
+
+#3) When no exception is thrown, the try statement is executed and not the catch statement.
+
+There are three kinds of exceptions:
+
+1.Checked Exception --> Checked exception is handled during compile time
+2.Unchecked Exception --> The compiler ignores during compile time
+3.Error  --> Array_Index_out_OfBoundException
+
+
+try-catch blocks are generally used to handle exceptions. Type of exceptions is declared in catch block which is expected to come.
+throws keyword in java is used to throw an exception rather than handling it. All checked exceptions can be thrown by methods.
+initially, block executes irrespective of execution of try-catch block and it executes immediately.
+Throwable: Throwable is a parent class for error and exception. Generally, it is difficult to handle errors in java.
