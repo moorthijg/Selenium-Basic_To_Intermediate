@@ -1,0 +1,13 @@
+JavaScriptExecutor is an interface that is used to execute Java_script through selenium webdriver
+
+JavascriptExecutor Provides Two Methods:
+
+ExecuteScript
+ExecuteAsyncScript
+
+1. ExecuteScript
+This method executes javaScript in the currently selected window or frame.
+
+2. ExecuteAsyncScript
+This method is used to execute the asynchronous Javascript in the current window or frame.
+An asynchronous Javascript executed is a single thread.

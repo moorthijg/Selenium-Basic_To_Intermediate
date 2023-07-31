@@ -1,0 +1,44 @@
+1.what is selenium ?
+selenium is automation testing tool which is used to test web application.
+
+2.advantages of selenium?
+i.it's an open source tool
+ii.it supports multiple languages
+iii.it supports almost all browsers
+iv.it support all platforms like windows,ubuntu ,linux,macOS.
+v.wide online community
+vi.integrate with multiple 3rd party applications
+
+3.disadvantages of selenium?
+i.it doesn't supports windows application and mobile application
+ii.it doesn't have inbuilt report generator
+iii.it doesn't have its own testing framework testing the scripts.
+iv.doesn't have dedicated support.
+
+4.did selenium is a single tool?
+no. selenium is not a single tool. it's a suite which consists set tools.
+those are selenium ide , selenium webdriver , selenium grid , selenium rc.
+
+5.explain tools of selenium?
+i.selenium ide --> integrated development environment. its a firefox plugin which is used to record
+and playback the test case execution.
+
+ii.selenium RC --> its another tool which works as a mediater for ide and browser and it has been
+merged with webdriver on updated of version of selenium 3.0
+
+iii.selenium webdriver --> the major component of the selenium which is used to interact with browser
+by executing test scripts.it works similar to the api which means it doesn't wait to read the request
+from the user and store it and then sending it to the client server. it straightly sends the
+request to the client server without waiting for the script.
+
+iv.selenium grid --> selenium grid used to execute test cases on different kind of machines and
+platforms (Windows,linux,ubuntu) from local machine
+it has two types
+i.hub --> works as master
+ii.node works as a slave
+--> to run as hub and node in cmd and machines
+open cmd -->(location of selenium server jar file)>java selenium-server-4.10.0.jar hub
+--> to run as node in cmd and other machines
+open cmd -->(location of selenium server jar file)>java selenium-server-4.10.0.jar node
+
+

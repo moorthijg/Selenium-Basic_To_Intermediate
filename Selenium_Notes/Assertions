@@ -1,0 +1,9 @@
+Assert :
+Assert is used for verifying the critical functionalities of the applications which means if the test script fails it doesn't make sense
+to test other methods.
+Hence, the test method is aborted as soon as failure occurs.
+
+Verify:
+SoftAssert class should be imported to execute the verify results and
+this method is directly opposite to the Assert which means if any one test is failed in the script it still executes the other cases which means
+ this action can be used for regression testing.

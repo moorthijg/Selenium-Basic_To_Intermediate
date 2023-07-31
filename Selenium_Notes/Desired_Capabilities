@@ -1,0 +1,8 @@
+Desired Capabilities:
+ those are a set of properties used to configure a particular instance of the browser.
+We have both browser-independent capabilities like browserName, version, acceptSslCerts, etc..
+
+example if we need to run the test in older version of the chrome we can set  browser version whatever we want.
+Same as if we want to run the application only on windows 10 and not other operating systems means we can set OS as windows 10
+
+These are the few examples of desired capabilities

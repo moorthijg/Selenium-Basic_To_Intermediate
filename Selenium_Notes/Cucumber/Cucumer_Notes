@@ -1,0 +1,32 @@
+                                                                              CUCUMBER
+ What is cucumber?
+Cucumber is a testing tool that supports Behavior Driven Development (BDD) framework.
+its an open source tool.
+ It serves as documentation, automated tests, and a development aid – all in one.
+ Supports different languages like java and ruby.
+ It acts as a bridge between the business and technical language
+
+What is Gherkin  in cucumber?
+Gherkin is a plain English text language, which helps the tool - Cucumber to interpret and execute the test scripts.
+
+Cucumber allows automation functional validation that is easily read and understood
+
+what is BDD?
+
+BDD is a framework which is Called Behavior Driven Development and it self says that it works on the behavior of the
+application.
+
+Example we are ordering a product on some online shopping website.
+for that the end user or customer,
+
+first they should be in login page and should be logged in
+after that they move to the product page
+after that they move to the cart page
+after that they move to payment page
+and at-last they click on confirm button to complete the order .
+
+This steps tells that  how the application will work for the different types of scenarios,
+scenario -1 =>  If the user puts valid username and password means they can be able to login their account.
+scenario-2 => if the same user puts invalid username and password means they can't be able to login their account.
+scenario-3 => if the same user tries more than three times with valid username and invalid password means their account which is linked to
+the username will be blocked.

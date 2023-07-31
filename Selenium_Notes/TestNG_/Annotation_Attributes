@@ -1,0 +1,47 @@
+There 6 types of attributes present  in the testNg framework.
+
+1.description
+2.timeOut
+3.priority
+4.dependsOnMethods
+5.enabled
+6.groups
+
+1.description
+it simply describes about the test method we are going to test like short description of the test
+
+2.timeOut
+it is used to set and check the time out of webpage and check network speed and page load
+time out of the test method.
+
+3.priority
+the name itself says the priority of the test cases which means how early the test cases should be
+executed and checked. it has default value of 0 --> which means high priority
+5--> medium priority
+10 --> low priority
+which means when the priority value is getting higher means the test case becomes lower priority.
+
+4.dependsOnMethods
+which is used to check the relationship between the two or more test cases means if the one test case is
+failed the the other  test cases which depends on the test method also fails or not executed.
+
+5.enabled
+it is used to skip the particular test cases in the test scripts.
+enabled = false --> skip the test case
+enabled = true ---> execute the test cases
+
+6.groups
+This attribute is used to group the test cases by their priority and severity of the outputs which groups like
+"smoke" , "sanity" , "retest" like that.
+
+
+
+
+
+
+
+
+
+
+
+

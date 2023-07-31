@@ -1,0 +1,49 @@
+what is gherkins in cucumber?
+Gherkins is simple language which is used to interpret and execute the test scripts.
+interesting fact about Gherkin is, it supports not only English but many other native languages such as
+French, Finnish, Indonesian, Hungarian,Tamil , Hindi, Urdu, Gujarati..
+
+How it actually works?
+Example we have Social media web application and consider the following test scenarios:
+
+Gherkin uses  keywords :
+Given --> Social media app user
+When --> if he gives valid username and password
+And ---> it should allow the user to login to their account
+Then --> the user can see their account/feed.
+
+A Feature can be defined as a standalone unit or functionality of a project.
+Let us assume the functionalities of the Social media ,
+
+1.create and restricting the user from the site.
+2.post a picture/video of theirs and others.
+3.can sending the friend request to anyone.
+4.Login
+5.logout
+
+Each functionality of the application is also called as a feature.
+
+Feature == Functionality
+
+A feature contains some list of scenarios to be tested.
+Example:
+The login functionality(Feature) of the social media ,
+-> valid username and valid password can allow the user to login
+->valid username and invalid password don't allow the user to login
+-> when logged in successfully user can be able to see the newsfeed / their account.
+
+
+Feature Files
+The file, in which Cucumber tests are written, is known as feature files. It is advisable that there should be a separate feature file,
+for each feature under test. The extension of the feature file needs to be “.feature”.
+One can create as many feature files as needed. To have an organized structure, each feature should have one feature file.
+
+
+
+
+
+
+
+
+
+

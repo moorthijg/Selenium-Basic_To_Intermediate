@@ -1,0 +1,15 @@
+Annotations:
+These are the notations which declares what should be tested and the order of the test case
+executions.
+
+order of Annotations:
+@BeforeSuite--> executes before the test suite
+@AfterSuite --> executes after the test suite
+@BeforeTest --> executes before starting the test
+@AfterTest --> executes after finishing of the test
+@BeforeClass --> executes before the test class
+@AfterClass --> executes after the test class finished
+@BeforeMethod --> executes before all the test methods present in the page
+@AfterMethod  --> executes after all the test methods completed in the script
+@BeforeGroups --> executes before all the test cases present in the group
+@AfterGroups --> executes After all the test cases completed in the group

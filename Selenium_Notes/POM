@@ -1,0 +1,51 @@
+Details About POM:
+
+POM means Project Object Model:
+
+The POM contains information about the project and various configuration detail used by Maven to build the project
+
+XML --> Extensive markup language --> which is different than html
+html --> is a markup language which can't able to store or Retrieve any datas
+but XML -> can store the datas and travers the datas from beginning to end.
+
+POM also contains the goals and plugins
+
+All POM files require the project element and three mandatory fields:
+groupId
+artifactId
+version
+
+Advantages of POM:
+1.makes code reusable and maintainable
+2.makes code readable
+3.make code minimizable
+
+How to implement POM in selenium?
+Let's have a scenario of ecom-website like amazon
+it have many pages --> but we select simple concepts
+it has ,
+
+
+POM - Package
+Homepage
+Login page
+Product page
+Payment page
+
+Test Data Package->
+Test data like email , passwords , invalid datas like that available
+
+Test Package
+Test cases ,  scripts , methods to login and execute the test scripts.
+
+
+
+
+
+
+
+
+
+
+
+

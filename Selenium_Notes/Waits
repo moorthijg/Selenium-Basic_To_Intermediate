@@ -1,0 +1,19 @@
+What is waits in selenium?
+
+Waits help the user to troubleshoot issues while re-directing to different web pages.
+waits are used to resolve "ElementNotVisibleException" which means the desired element
+is not present in the current webpage.
+
+There are three types of waits available in the selenium
+i.implict wait
+2.explict wait
+3.fluent waits
+
+1.implict wait --> this wait is applied entirely to the starting to closing of webdriver instance and
+applied  to all the elements which is present in the current webpage.
+
+2.explict wait --> this wait is applied to the particular webelement in the webpage and it contains only
+until method.
+
+3.fluent wait --> fluent wait is not a normal wait it is applied to the dynamic webelements present in the
+webpage and this wait checks the webelement for frequent time intervals.

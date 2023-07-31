@@ -1,0 +1,13 @@
+Action is another interface we uses in selenium
+
+we use in selenium to perform keyboard actions and mouse actions
+like right click , double click , pressing enter , switching tabs , selecting all the contents in the
+web page.
+
+As we know that we cant implement action interface directly we use Actions class for implementing
+Action interface.
+
+here we use perform and build keyword which is used to perform actions
+the difference between build and perform is ,
+build --> it organises all the actions together and perform used to execute the actions altogether.
+perform --> it doesn't wait for other actions once the perform is given it executed as soon as possible.
