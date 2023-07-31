@@ -1,0 +1,23 @@
+1.NoSuchWindowException --> while switching the multiple windows and if the desired window is not available it throws this exception
+
+2.NoSuchFrameException --> while switching frames in the webpage if the desired frame is not available it throws this exception
+
+3.NoAlertPresentException  --> while switching alerts and if the alert is not pop out it throws such exception
+
+4.InvalidSelectorException --> it will be thrown when the invalid xpath is selected for the webelement
+
+5.ElementNotVisibleException --> ElementNotVisibleException is an exception thrown by Selenium WebDriver when an element is present
+in the DOM,  but it is not visible to the user meaning that the user cannot see or interact with it, such as clicking or sending keys.
+
+6.ElementNotSelectableException --> element is present in page but can't able to select or click or interact.
+
+7.TimeoutException  --> when the website took more time to load  than expected time it throws TimeoutException
+
+8.NoSuchSessionException --> after calling driver.quit method and the session is closed but the test runs means it throws such exception
+
+9.StaleElementReferenceException --> The element has been removed from the DOM.
+                                                                       The element is not attached to the page document.
+
+10.NoSuchElementException  --> element is not in the page or the not present in the current page
+
+11.ElementNotInteract ableException -->WebElement is present but not in an interact able state.

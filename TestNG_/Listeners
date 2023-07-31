@@ -1,0 +1,18 @@
+TestNG_Listeners:
+The name itself says that they will listens all the events occurs from starting to ending while
+executing the test script in selenium.
+TestNG_Listeners are activated either before the test or after the test case.
+
+TestNG_Listeners(class) implements ITestListener(interface)
+
+"https://www.javatpoint.com/testng-listeners"
+
+ITestListener has 7 methods :
+
+i.onTestStart()
+ii.onTestSuccess
+iii.onTestFailure()
+iv.onTestSkipped()
+v.onTestFailedButWithinSuccessPercentage()
+vi.onStart()
+vii.onFinish()

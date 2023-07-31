@@ -1,0 +1,6 @@
+what is testNG.xml file?
+
+TestNG.xml file is an XML file which contains all the Test configuration
+
+it allows user to run the test cases as group of suite which means by running this file we can run 100
+test cases at single time.

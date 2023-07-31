@@ -1,0 +1,18 @@
+what is TestNG?
+TestNG provides advanced features such as annotations, data-driven testing, test sequencing,
+and parallel testing to help you organize and execute your Selenium tests more efficient
+and effectively.
+
+TestNg--> Test Next Generation
+
+TestNg is an 3rd party testing framework which uses annotations to test the web application and it can be
+integrated with selenium
+
+it provides full control over the test methods, test execution  , test classes
+
+it produces in built html test reports
+
+It allows you to run the test cases of a particular group
+
+The main importance of the testng is Parallel execution of test cases which means we can test the test
+cases in different browsers at a single time which means (cross browser testing)
